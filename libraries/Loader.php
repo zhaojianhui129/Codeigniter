@@ -183,7 +183,6 @@ class CI_Loader {
 				
 		$CI->$name = new $model();
 		$CI->$name->_assign_libraries();
-		$this->_ci_assign_to_models();//新加一行，可以在model中载入其它model并通过$this->modelName->modelFun();的方式调用
 		
 		$this->_ci_models[] = $name;	
 	}
