@@ -38,13 +38,13 @@ require_once BASEPATH . "global.php";
 
 switch (ENV){
     case 'develop':
-        include BASEPATH . '/config/database/develop.php';
+        require BASEPATH . '/config/database/develop.php';
         break;
     case 'test':
-        include BASEPATH . '/config/database/test.php';
+        require BASEPATH . '/config/database/test.php';
         break;
     case 'production':
-        include BASEPATH . '/config/database/production.php';
+        require BASEPATH . '/config/database/production.php';
         break;
 }
 
