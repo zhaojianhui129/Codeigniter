@@ -1,7 +1,7 @@
 <?php
 //默认数据库配置
 //dflpvmkt-专营店表配置
-$db['dflpvmkt']['hostname'] = "127.0.0.1";
+$db['dflpvmkt']['hostname'] = "172.17.0.3";
 $db['dflpvmkt']['username'] = "greg";
 $db['dflpvmkt']['password'] = "hndxtmx1997";
 $db['dflpvmkt']['database'] = "dflpvmkt";
@@ -14,7 +14,7 @@ $db['dflpvmkt']['cachedir'] = "";
 $db['dflpvmkt']['char_set'] = "latin1";
 $db['dflpvmkt']['dbcollat'] = "latin1_swedish_ci";
 //NTSDF-数据库配置
-$db['ntsdf']['hostname'] = "127.0.0.1";
+$db['ntsdf']['hostname'] = "172.17.0.3";
 $db['ntsdf']['username'] = "greg";
 $db['ntsdf']['password'] = "hndxtmx1997";
 $db['ntsdf']['database'] = "NTSDF";
@@ -27,7 +27,7 @@ $db['ntsdf']['cachedir'] = "";
 $db['ntsdf']['char_set'] = "utf8";
 $db['ntsdf']['dbcollat'] = "utf8_general_ci";
 //RMP数据库配置
-$db['rmp']['hostname'] = "127.0.0.1";
+$db['rmp']['hostname'] = "172.17.0.3";
 $db['rmp']['username'] = "greg";
 $db['rmp']['password'] = "hndxtmx1997";
 $db['rmp']['database'] = "rmp";
@@ -40,7 +40,7 @@ $db['rmp']['cachedir'] = "";
 $db['rmp']['char_set'] = "utf8";
 $db['rmp']['dbcollat'] = "utf8_general_ci";
 //启辰RMP数据库配置
-$db['qirmp']['hostname'] = "127.0.0.1";
+$db['qirmp']['hostname'] = "172.17.0.3";
 $db['qirmp']['username'] = "greg";
 $db['qirmp']['password'] = "hndxtmx1997";
 $db['qirmp']['database'] = "qirmp";
@@ -53,7 +53,7 @@ $db['qirmp']['cachedir'] = "";
 $db['qirmp']['char_set'] = "utf8";
 $db['qirmp']['dbcollat'] = "utf8_general_ci";
 //执行管控imploment数据库配置
-$db['implement']['hostname'] = "127.0.0.1";
+$db['implement']['hostname'] = "172.17.0.3";
 $db['implement']['username'] = "greg";
 $db['implement']['password'] = "hndxtmx1997";
 $db['implement']['database'] = "implement";
